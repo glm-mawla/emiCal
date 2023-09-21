@@ -1,0 +1,87 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sprial.emical"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.sprial.emical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.sprial.emical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:5:5-25:19
+18        android:allowBackup="true"
+18-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="true"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher"
+26-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:11:9-48
+27        android:supportsRtl="true"
+27-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:12:9-35
+28        android:testOnly="false"
+28-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:14:9-33
+29        android:theme="@style/Theme.EMICal" >
+29-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:13:9-44
+30        <activity
+30-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:16:9-24:20
+31            android:name="com.sprial.emical.MainActivity"
+31-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:17:13-41
+32            android:exported="true" >
+32-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:18:13-36
+33            <intent-filter>
+33-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:19:13-23:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:20:17-69
+34-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:22:17-77
+36-->/Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:22:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+41            android:name="androidx.startup.InitializationProvider"
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+42            android:authorities="com.sprial.emical.androidx-startup"
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+43            android:exported="false" >
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+44            <meta-data
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+45                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+46                android:value="androidx.startup" />
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+47            <meta-data
+47-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+49                android:value="androidx.startup" />
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+50        </provider>
+51    </application>
+52
+53</manifest>

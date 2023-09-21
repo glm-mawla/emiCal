@@ -1,0 +1,248 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [androidx.databinding:viewbinding:8.1.0-rc01] /Users/Newton/gradle/caches/transforms-3/884d3e235034bd917f5d099c85b7aeae/transformed/viewbinding-8.1.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.9.0] /Users/Newton/gradle/caches/transforms-3/6e0ea1782895bcf43a4a584d962c1ae0/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/Newton/gradle/caches/transforms-3/8d14290b000237dab5e91f5d7c57351c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/Newton/gradle/caches/transforms-3/2b59392541d1e7cc1d9f5a8ac21e96aa/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/Newton/gradle/caches/transforms-3/bb4c494aec5af57d750d15a9f7071754/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Newton/gradle/caches/transforms-3/d1010a475c5804d47c11d823f2258a88/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Newton/gradle/caches/transforms-3/842b7043aed6afc2a6b84cb3b951bb18/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] /Users/Newton/gradle/caches/transforms-3/d2fa03fbab5b6b6232b342da2514e9ab/transformed/activity-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/Newton/gradle/caches/transforms-3/75ebf7675174944b317aac7263ed9b20/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Newton/gradle/caches/transforms-3/b012ab062c87844c3bc681bc84e77448/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/Newton/gradle/caches/transforms-3/1ea29a379e1087b91f916f866ed1eb2e/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/Newton/gradle/caches/transforms-3/d04e7e09ab57d736ef9d274b5bbc44e0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/Newton/gradle/caches/transforms-3/a43d9fdcd83054398dadc39a80d65860/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/Newton/gradle/caches/transforms-3/63149bbd482293a1b90871b880fb962f/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/Newton/gradle/caches/transforms-3/942abfc9351f13b87b9eb32b95769d03/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Newton/gradle/caches/transforms-3/c560bc54b2e117f08d31be1724709e17/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/Newton/gradle/caches/transforms-3/fb13d1a86b8c68173d94d09b94c7410a/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Newton/gradle/caches/transforms-3/078bc955c9493a5fb113415ab99d65b8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Newton/gradle/caches/transforms-3/f78685a7510e5bfc63ffaf872c0e071c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Newton/gradle/caches/transforms-3/40a1018719e9178ee94ca8002ac081d2/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Newton/gradle/caches/transforms-3/dd20ac242d0c105a8bc4b9c89668b920/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/Newton/gradle/caches/transforms-3/97ca412f82de20d9a41313c1ec3aa637/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/Newton/gradle/caches/transforms-3/97819003fd0aa9379bb3919e0a717ba9/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Newton/gradle/caches/transforms-3/3745a2a40f7c20dd4cfa0bbc22713c8f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/Newton/gradle/caches/transforms-3/99aa33a1eece0635c161546bc0f08006/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/Newton/gradle/caches/transforms-3/527be0251e203179b2f0525f77126f8c/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Newton/gradle/caches/transforms-3/3b8210fbaa3caabf67241f5560dc5e07/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Newton/gradle/caches/transforms-3/999513570926a3d9562141b5d7f7e04d/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Newton/gradle/caches/transforms-3/2450e299a07210e5090d36b12de282d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/Newton/gradle/caches/transforms-3/7104573e24957d49c1de0e746062442e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Newton/gradle/caches/transforms-3/940a0dcc9f3bb44c4d645b9ea94ab554/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Newton/gradle/caches/transforms-3/1977d2fcc759fa4309d04416e7b00553/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/Newton/gradle/caches/transforms-3/5a7079ef79dddedf56cbef956cf89756/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Newton/gradle/caches/transforms-3/44fee84e49613a3c6110524dfac955ff/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Newton/gradle/caches/transforms-3/79a44fba86d4f88699dc75c1c5e83f20/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Newton/gradle/caches/transforms-3/f2053171c73024476bbb32e37642d325/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/Newton/gradle/caches/transforms-3/8b31a6f1e829286d74d6493b1cc91215/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Newton/gradle/caches/transforms-3/11bbc830405f57fbbab1b23997171d29/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:5:5-25:19
+INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.google.android.material:material:1.9.0] /Users/Newton/gradle/caches/transforms-3/6e0ea1782895bcf43a4a584d962c1ae0/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /Users/Newton/gradle/caches/transforms-3/6e0ea1782895bcf43a4a584d962c1ae0/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/Newton/gradle/caches/transforms-3/8d14290b000237dab5e91f5d7c57351c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/Newton/gradle/caches/transforms-3/8d14290b000237dab5e91f5d7c57351c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Newton/gradle/caches/transforms-3/2450e299a07210e5090d36b12de282d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Newton/gradle/caches/transforms-3/2450e299a07210e5090d36b12de282d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/Newton/gradle/caches/transforms-3/7104573e24957d49c1de0e746062442e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/Newton/gradle/caches/transforms-3/7104573e24957d49c1de0e746062442e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:10:9-41
+	android:fullBackupContent
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:8:9-54
+	android:testOnly
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:14:9-33
+	android:roundIcon
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:11:9-48
+	android:icon
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:13:9-44
+	android:dataExtractionRules
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:7:9-65
+activity#com.sprial.emical.MainActivity
+ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:16:9-24:20
+	android:exported
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml:22:27-74
+uses-sdk
+INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml
+INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.1.0-rc01] /Users/Newton/gradle/caches/transforms-3/884d3e235034bd917f5d099c85b7aeae/transformed/viewbinding-8.1.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.0-rc01] /Users/Newton/gradle/caches/transforms-3/884d3e235034bd917f5d099c85b7aeae/transformed/viewbinding-8.1.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.9.0] /Users/Newton/gradle/caches/transforms-3/6e0ea1782895bcf43a4a584d962c1ae0/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /Users/Newton/gradle/caches/transforms-3/6e0ea1782895bcf43a4a584d962c1ae0/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/Newton/gradle/caches/transforms-3/8d14290b000237dab5e91f5d7c57351c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/Newton/gradle/caches/transforms-3/8d14290b000237dab5e91f5d7c57351c/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/Newton/gradle/caches/transforms-3/2b59392541d1e7cc1d9f5a8ac21e96aa/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/Newton/gradle/caches/transforms-3/2b59392541d1e7cc1d9f5a8ac21e96aa/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/Newton/gradle/caches/transforms-3/bb4c494aec5af57d750d15a9f7071754/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/Newton/gradle/caches/transforms-3/bb4c494aec5af57d750d15a9f7071754/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Newton/gradle/caches/transforms-3/d1010a475c5804d47c11d823f2258a88/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/Newton/gradle/caches/transforms-3/d1010a475c5804d47c11d823f2258a88/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Newton/gradle/caches/transforms-3/842b7043aed6afc2a6b84cb3b951bb18/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/Newton/gradle/caches/transforms-3/842b7043aed6afc2a6b84cb3b951bb18/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] /Users/Newton/gradle/caches/transforms-3/d2fa03fbab5b6b6232b342da2514e9ab/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] /Users/Newton/gradle/caches/transforms-3/d2fa03fbab5b6b6232b342da2514e9ab/transformed/activity-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/Newton/gradle/caches/transforms-3/75ebf7675174944b317aac7263ed9b20/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/Newton/gradle/caches/transforms-3/75ebf7675174944b317aac7263ed9b20/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Newton/gradle/caches/transforms-3/b012ab062c87844c3bc681bc84e77448/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/Newton/gradle/caches/transforms-3/b012ab062c87844c3bc681bc84e77448/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Newton/gradle/caches/transforms-3/1ea29a379e1087b91f916f866ed1eb2e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/Newton/gradle/caches/transforms-3/1ea29a379e1087b91f916f866ed1eb2e/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/Newton/gradle/caches/transforms-3/d04e7e09ab57d736ef9d274b5bbc44e0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/Newton/gradle/caches/transforms-3/d04e7e09ab57d736ef9d274b5bbc44e0/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/Newton/gradle/caches/transforms-3/a43d9fdcd83054398dadc39a80d65860/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/Newton/gradle/caches/transforms-3/a43d9fdcd83054398dadc39a80d65860/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/Newton/gradle/caches/transforms-3/63149bbd482293a1b90871b880fb962f/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/Newton/gradle/caches/transforms-3/63149bbd482293a1b90871b880fb962f/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/Newton/gradle/caches/transforms-3/942abfc9351f13b87b9eb32b95769d03/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/Newton/gradle/caches/transforms-3/942abfc9351f13b87b9eb32b95769d03/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Newton/gradle/caches/transforms-3/c560bc54b2e117f08d31be1724709e17/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/Newton/gradle/caches/transforms-3/c560bc54b2e117f08d31be1724709e17/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/Newton/gradle/caches/transforms-3/fb13d1a86b8c68173d94d09b94c7410a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/Newton/gradle/caches/transforms-3/fb13d1a86b8c68173d94d09b94c7410a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Newton/gradle/caches/transforms-3/078bc955c9493a5fb113415ab99d65b8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/Newton/gradle/caches/transforms-3/078bc955c9493a5fb113415ab99d65b8/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Newton/gradle/caches/transforms-3/f78685a7510e5bfc63ffaf872c0e071c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/Newton/gradle/caches/transforms-3/f78685a7510e5bfc63ffaf872c0e071c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Newton/gradle/caches/transforms-3/40a1018719e9178ee94ca8002ac081d2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/Newton/gradle/caches/transforms-3/40a1018719e9178ee94ca8002ac081d2/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Newton/gradle/caches/transforms-3/dd20ac242d0c105a8bc4b9c89668b920/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/Newton/gradle/caches/transforms-3/dd20ac242d0c105a8bc4b9c89668b920/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/Newton/gradle/caches/transforms-3/97ca412f82de20d9a41313c1ec3aa637/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/Newton/gradle/caches/transforms-3/97ca412f82de20d9a41313c1ec3aa637/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/Newton/gradle/caches/transforms-3/97819003fd0aa9379bb3919e0a717ba9/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/Newton/gradle/caches/transforms-3/97819003fd0aa9379bb3919e0a717ba9/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Newton/gradle/caches/transforms-3/3745a2a40f7c20dd4cfa0bbc22713c8f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/Newton/gradle/caches/transforms-3/3745a2a40f7c20dd4cfa0bbc22713c8f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/Newton/gradle/caches/transforms-3/99aa33a1eece0635c161546bc0f08006/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] /Users/Newton/gradle/caches/transforms-3/99aa33a1eece0635c161546bc0f08006/transformed/lifecycle-runtime-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/Newton/gradle/caches/transforms-3/527be0251e203179b2f0525f77126f8c/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/Newton/gradle/caches/transforms-3/527be0251e203179b2f0525f77126f8c/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Newton/gradle/caches/transforms-3/3b8210fbaa3caabf67241f5560dc5e07/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/Newton/gradle/caches/transforms-3/3b8210fbaa3caabf67241f5560dc5e07/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Newton/gradle/caches/transforms-3/999513570926a3d9562141b5d7f7e04d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/Newton/gradle/caches/transforms-3/999513570926a3d9562141b5d7f7e04d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Newton/gradle/caches/transforms-3/2450e299a07210e5090d36b12de282d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/Newton/gradle/caches/transforms-3/2450e299a07210e5090d36b12de282d4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/Newton/gradle/caches/transforms-3/7104573e24957d49c1de0e746062442e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/Newton/gradle/caches/transforms-3/7104573e24957d49c1de0e746062442e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Newton/gradle/caches/transforms-3/940a0dcc9f3bb44c4d645b9ea94ab554/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/Newton/gradle/caches/transforms-3/940a0dcc9f3bb44c4d645b9ea94ab554/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Newton/gradle/caches/transforms-3/1977d2fcc759fa4309d04416e7b00553/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/Newton/gradle/caches/transforms-3/1977d2fcc759fa4309d04416e7b00553/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/Newton/gradle/caches/transforms-3/5a7079ef79dddedf56cbef956cf89756/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/Newton/gradle/caches/transforms-3/5a7079ef79dddedf56cbef956cf89756/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Newton/gradle/caches/transforms-3/44fee84e49613a3c6110524dfac955ff/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/Newton/gradle/caches/transforms-3/44fee84e49613a3c6110524dfac955ff/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Newton/gradle/caches/transforms-3/79a44fba86d4f88699dc75c1c5e83f20/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/Newton/gradle/caches/transforms-3/79a44fba86d4f88699dc75c1c5e83f20/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Newton/gradle/caches/transforms-3/f2053171c73024476bbb32e37642d325/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/Newton/gradle/caches/transforms-3/f2053171c73024476bbb32e37642d325/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Newton/gradle/caches/transforms-3/8b31a6f1e829286d74d6493b1cc91215/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/Newton/gradle/caches/transforms-3/8b31a6f1e829286d74d6493b1cc91215/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Newton/gradle/caches/transforms-3/11bbc830405f57fbbab1b23997171d29/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/Newton/gradle/caches/transforms-3/11bbc830405f57fbbab1b23997171d29/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/Newton/AndroidStudioProjects/EMICal/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/Newton/gradle/caches/transforms-3/7104573e24957d49c1de0e746062442e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/Newton/gradle/caches/transforms-3/7104573e24957d49c1de0e746062442e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/Newton/gradle/caches/transforms-3/ffd48d3bd749b7122e56b45bcf7b0bc2/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.sprial.emical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.sprial.emical.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/Newton/gradle/caches/transforms-3/2a655c7dcc0c971787152aa28d88351a/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] /Users/Newton/gradle/caches/transforms-3/eaafd5618de163d94bd0ef15f924bc25/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78

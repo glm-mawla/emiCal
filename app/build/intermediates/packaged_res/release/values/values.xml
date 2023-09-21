@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="color_primary">#5E72EB</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">EMI Cal</string>
+    <style name="Base.Theme.EMICal" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.EMICal" parent="Base.Theme.EMICal"/>
+</resources>
