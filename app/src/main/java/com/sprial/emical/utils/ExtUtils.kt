@@ -52,3 +52,13 @@ fun Double?.toRoundTwoDigit(): Double {
     }
     return 0.00
 }
+
+fun Float?.toRoundTwoDigit(): Float {
+    this?.let {
+        val nf: NumberFormat = NumberFormat.getNumberInstance(Locale.US)
+        val formatter = nf as DecimalFormat
+        formatter.applyPattern("##########0.00")
+        return formatter.format(this).toFloat()
+    }
+    return 0.00f
+}

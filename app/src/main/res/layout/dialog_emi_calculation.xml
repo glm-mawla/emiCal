@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvEmiInputs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="59dp"
+        android:elevation="1dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="#0472bd"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="2dp"
+        app:cardMaxElevation="12dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="@color/white"
+        app:strokeWidth="0dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Amount -->
+            <TextView
+                android:id="@+id/tvAmount"
+                style="@style/TextAppearance.Material3.LabelLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/seekBarAmount"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="56dp"
+                android:text="Principal Amount ( ~ 1,00,00,000)"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Amount Slider -->
+            <com.google.android.material.slider.Slider
+                android:id="@+id/seekBarAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stepSize="1000"
+                android:valueFrom="1000"
+                android:valueTo="10000000"
+                app:labelBehavior="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvAmount"
+                app:thumbColor="#fab400"
+                app:thumbElevation="4dp"
+                app:thumbRadius="12dp"
+                app:tickVisible="true"
+                app:trackColor="#d5fab400"
+                app:trackHeight="8dp" />
+
+            <!-- Tenure -->
+            <TextView
+                android:id="@+id/tvTenure"
+                style="@style/TextAppearance.Material3.LabelLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/seekBarAmount"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="EMI Tenures ( ~ 240 months)"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seekBarAmount" />
+
+            <!-- Tenure Slider -->
+            <com.google.android.material.slider.Slider
+                android:id="@+id/seekBarTenure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stepSize="1"
+                android:value="1"
+                android:valueFrom="1"
+                android:valueTo="240"
+                app:labelBehavior="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvTenure"
+                app:thumbColor="#fab400"
+                app:thumbElevation="4dp"
+                app:thumbRadius="12dp"
+                app:tickVisible="true"
+                app:trackColor="#d5fab400"
+                app:trackHeight="8dp" />
+
+            <!-- Rate -->
+            <TextView
+                android:id="@+id/tvRate"
+                style="@style/TextAppearance.Material3.LabelLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/seekBarAmount"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="Interest Rate (3 ~ 15)%"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seekBarTenure" />
+
+            <!-- Rate Slider -->
+            <com.google.android.material.slider.Slider
+                android:id="@+id/seekBarRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:valueFrom="3.00"
+                android:valueTo="15.00"
+                app:labelBehavior="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRate"
+                app:thumbColor="#fab400"
+                app:thumbElevation="4dp"
+                app:thumbRadius="12dp"
+                app:tickVisible="true"
+                app:trackColor="#d5fab400"
+                app:trackHeight="8dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.sprial.emical.widgets.EmiDetailsWidget
+        android:id="@+id/cvEmiDetails"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:translationZ="6dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toTopOf="@+id/cvEmiInputs"
+        app:layout_constraintEnd_toEndOf="@+id/cvEmiInputs"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/cvEmiInputs"
+        app:layout_constraintTop_toTopOf="@+id/cvEmiInputs"
+        app:layout_constraintVertical_bias="0.564"
+        app:strokeColor="@color/white" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

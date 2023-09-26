@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "com.sprial.emical"
-    compileSdkPreview = "TiramisuPrivacySandbox"
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.sprial.emical"
         minSdk = 21
         targetSdk = 34
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 3
+        versionName = "1.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
