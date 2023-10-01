@@ -64,7 +64,7 @@
                 app:thumbRadius="12dp"
                 app:tickVisible="true"
                 app:trackColor="#d5fab400"
-                app:trackHeight="8dp" />
+                app:trackHeight="10dp" />
 
             <!-- Tenure -->
             <TextView
@@ -100,7 +100,7 @@
                 app:thumbRadius="12dp"
                 app:tickVisible="true"
                 app:trackColor="#d5fab400"
-                app:trackHeight="8dp" />
+                app:trackHeight="10dp" />
 
             <!-- Rate -->
             <TextView
@@ -134,19 +134,19 @@
                 app:thumbRadius="12dp"
                 app:tickVisible="true"
                 app:trackColor="#d5fab400"
-                app:trackHeight="8dp" />
+                app:trackHeight="10dp" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </androidx.cardview.widget.CardView>
 
-    <com.sprial.emical.widgets.EmiDetailsWidget
+    <com.sprial.emical.widgets.EmiExtraDetailsWidget
         android:id="@+id/cvEmiDetails"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:translationZ="6dp"
         android:visibility="visible"
         app:cardBackgroundColor="@color/white"

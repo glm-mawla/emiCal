@@ -4,9 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
+import androidx.lifecycle.ViewModelProvider
 import com.sprial.emical.R
 import com.sprial.emical.databinding.FragmentThemeDefaultBinding
+import com.sprial.emical.ui.MainViewModel
+import com.sprial.emical.ui.MainViewModelFactory
+import com.sprial.emical.ui.dataStore
+import com.sprial.emical.utils.EmiPrefRepository
 
 class DefaultThemeFragment : Fragment() {
 
@@ -15,6 +21,8 @@ class DefaultThemeFragment : Fragment() {
         intArrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20)
 
     private lateinit var binding: FragmentThemeDefaultBinding
+    private lateinit var viewModel: MainViewModel
+
     private var amount: Int = 0
     private var tenure: Int = 1
     private var interest: Double = 7.0
@@ -39,11 +47,29 @@ class DefaultThemeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initialize()
 
         initUI()
         binding.btnEmiCalculate.setOnClickListener {
             calculateEmi()
         }
+
+        binding.cvEmiDetails.setFavouriteClick {
+            it?.let {
+                viewModel.updateEmiHistory(it)
+            } ?: kotlin.run {
+                Toast.makeText(requireContext(), "Calculate EMI first !!", Toast.LENGTH_SHORT).show()
+            }
+        }
+    }
+
+    private fun initialize() {
+        viewModel = ViewModelProvider(
+            this,
+            MainViewModelFactory(
+                EmiPrefRepository(requireContext().dataStore)
+            )
+        )[MainViewModel::class.java]
     }
 
     private fun initUI() {
