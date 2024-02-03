@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236029887267",
+    "project_id": "emi-cal-c84af",
+    "storage_bucket": "emi-cal-c84af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236029887267:android:dfc6912c70c0d433e84296",
+        "android_client_info": {
+          "package_name": "com.sprial.emical"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7A-Yy1R_7Idqmn-Wgko_ZmWwN1JYJVRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
