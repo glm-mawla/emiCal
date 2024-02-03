@@ -1,0 +1,12 @@
+/*
+syntax = "proto3";
+
+option java_package = "com.sprial.emical";
+option java_multiple_files = false;
+
+message EmiModel {
+  int32 emi_id = 1;
+  double principal_amount = 2;
+  int32 tenure = 3;
+  double interest = 4;
+}*/
