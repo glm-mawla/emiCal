@@ -11,8 +11,8 @@ import com.sprial.emical.R
 import com.sprial.emical.databinding.DialogEmiCalculationBinding
 import com.sprial.emical.ui.MainViewModel
 import com.sprial.emical.ui.MainViewModelFactory
-import com.sprial.emical.ui.dataStore
-import com.sprial.emical.utils.EmiPrefRepository
+import com.sprial.emical.utils.EmiPrefManager
+import com.sprial.emical.utils.dataStore
 import com.sprial.emical.utils.formatCurrency
 import com.sprial.emical.utils.toRoundTwoDigit
 
@@ -49,7 +49,7 @@ class SeekThemeFragment : Fragment() {
         viewModel = ViewModelProvider(
             this,
             MainViewModelFactory(
-                EmiPrefRepository(requireContext().dataStore)
+                EmiPrefManager(requireContext().dataStore)
             )
         )[MainViewModel::class.java]
     }

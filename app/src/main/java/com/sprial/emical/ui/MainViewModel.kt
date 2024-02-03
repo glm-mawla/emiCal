@@ -5,38 +5,38 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.liveData
 import androidx.lifecycle.viewModelScope
 import com.sprial.emical.data.EmiInfoModel
-import com.sprial.emical.utils.EmiPrefRepository
+import com.sprial.emical.utils.EmiPrefManager
 import com.sprial.emical.utils.EmiTheme
 import kotlinx.coroutines.launch
 
 class MainViewModel(
-    private val emiPrefRepository: EmiPrefRepository
+    private val emiPrefManager: EmiPrefManager
 ) : ViewModel() {
 
     val defaultEmiTHeme = liveData {
-        emit(emiPrefRepository.fetchDefaultEmiTheme())
+        emit(emiPrefManager.fetchDefaultEmiTheme())
     }
 
     fun updateEmiTheme(emiTheme: EmiTheme) {
         viewModelScope.launch {
-            emiPrefRepository.updateEmiTheme(emiTheme)
+            emiPrefManager.updateEmiTheme(emiTheme)
         }
     }
 
     fun updateEmiHistory(emiInfoModel: EmiInfoModel) {
         viewModelScope.launch {
-            emiPrefRepository.updateEmiHistory(emiInfoModel)
+            emiPrefManager.updateEmiHistory(emiInfoModel)
         }
     }
 }
 
 class MainViewModelFactory(
-    private val emiPrefRepository: EmiPrefRepository
+    private val emiPrefManager: EmiPrefManager
 ) : ViewModelProvider.Factory {
 
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
         if (modelClass.isAssignableFrom(MainViewModel::class.java)) {
-            return MainViewModel(emiPrefRepository) as T
+            return MainViewModel(emiPrefManager) as T
         } else {
             throw IllegalArgumentException("Unknown ViewModel class")
         }

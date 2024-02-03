@@ -1,5 +1,7 @@
 package com.sprial.emical.ui.themes.chip
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,8 +13,8 @@ import com.sprial.emical.R
 import com.sprial.emical.databinding.FragmentThemeDefaultBinding
 import com.sprial.emical.ui.MainViewModel
 import com.sprial.emical.ui.MainViewModelFactory
-import com.sprial.emical.ui.dataStore
-import com.sprial.emical.utils.EmiPrefRepository
+import com.sprial.emical.utils.EmiPrefManager
+import com.sprial.emical.utils.dataStore
 
 class DefaultThemeFragment : Fragment() {
 
@@ -51,6 +53,11 @@ class DefaultThemeFragment : Fragment() {
 
         initUI()
         binding.btnEmiCalculate.setOnClickListener {
+            startActivity(
+                Intent().apply {
+                    data = Uri.parse("shubidha://bbl?authToken=77889")
+                }
+            )
             calculateEmi()
         }
 
@@ -67,7 +74,7 @@ class DefaultThemeFragment : Fragment() {
         viewModel = ViewModelProvider(
             this,
             MainViewModelFactory(
-                EmiPrefRepository(requireContext().dataStore)
+                EmiPrefManager(requireContext().dataStore)
             )
         )[MainViewModel::class.java]
     }

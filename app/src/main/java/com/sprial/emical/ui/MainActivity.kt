@@ -1,19 +1,19 @@
 package com.sprial.emical.ui
 
-import android.content.Context
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.datastore.preferences.preferencesDataStore
 import androidx.lifecycle.ViewModelProvider
 import com.sprial.emical.databinding.ActivityMainBinding
 import com.sprial.emical.ui.history.EmiHistoryFragment
 import com.sprial.emical.ui.themes.chip.DefaultThemeFragment
 import com.sprial.emical.ui.themes.chip.SeekThemeFragment
 import com.sprial.emical.ui.themes.chip.ThemeChipFragment
-import com.sprial.emical.utils.EmiPrefRepository
+import com.sprial.emical.utils.EmiPrefManager
 import com.sprial.emical.utils.EmiTheme
-
-val Context.dataStore by preferencesDataStore(name = "emi_preference")
+import com.sprial.emical.utils.dataStore
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,6 +31,12 @@ class MainActivity : AppCompatActivity() {
         initialize()
         initObserver()
         initUI()
+        // ATTENTION: This was auto-generated to handle app links.
+        val appLinkIntent: Intent = intent
+        val appLinkAction: String? = appLinkIntent.action
+        val appLinkData: Uri? = appLinkIntent.data
+
+        Toast.makeText(this, "$appLinkAction + $appLinkData", Toast.LENGTH_SHORT).show()
     }
 
     private fun initObserver() {
@@ -62,7 +68,7 @@ class MainActivity : AppCompatActivity() {
         viewModel = ViewModelProvider(
             this,
             MainViewModelFactory(
-                EmiPrefRepository(dataStore)
+                EmiPrefManager(dataStore)
             )
         )[MainViewModel::class.java]
     }

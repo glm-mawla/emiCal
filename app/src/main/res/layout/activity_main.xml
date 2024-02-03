@@ -4,27 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_layout"
     tools:context=".ui.MainActivity">
 
     <ImageView
         android:id="@+id/ivFavourites"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:padding="4dp"
         android:layout_marginEnd="16dp"
+        android:padding="4dp"
         android:src="@drawable/baseline_favorite_24"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView" />
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="76dp"
+        android:layout_height="?actionBarSize"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:scaleType="centerCrop"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
         app:srcCompat="@drawable/ic_emical" />
 
     <com.google.android.material.chip.ChipGroup
@@ -35,9 +40,9 @@
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:selectionRequired="true"
         app:singleLine="true"
-        app:singleSelection="true"
-        app:selectionRequired="true">
+        app:singleSelection="true">
 
         <com.google.android.material.chip.Chip
             android:id="@+id/chipDefault"
@@ -65,8 +70,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Media Style"
-            app:checkedIconVisible="true"
-            android:visibility="gone"/>
+            android:visibility="gone"
+            app:checkedIconVisible="true" />
 
     </com.google.android.material.chip.ChipGroup>
 

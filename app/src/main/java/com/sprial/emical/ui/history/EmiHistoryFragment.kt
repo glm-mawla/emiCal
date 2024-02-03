@@ -11,8 +11,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.sprial.emical.R
 import com.sprial.emical.data.EmiInfoModel
 import com.sprial.emical.databinding.FragmentEmiHistoryBinding
-import com.sprial.emical.ui.dataStore
-import com.sprial.emical.utils.EmiPrefRepository
+import com.sprial.emical.utils.EmiPrefManager
+import com.sprial.emical.utils.dataStore
 
 class EmiHistoryFragment : Fragment() {
 
@@ -71,7 +71,7 @@ class EmiHistoryFragment : Fragment() {
         viewModel = ViewModelProvider(
             this,
             EmiViewModelFactory(
-                EmiPrefRepository(requireContext().dataStore)
+                EmiPrefManager(requireContext().dataStore)
             )
         )[EmiHistoryViewModel::class.java]
     }

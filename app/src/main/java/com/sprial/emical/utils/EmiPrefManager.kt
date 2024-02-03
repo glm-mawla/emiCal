@@ -1,11 +1,13 @@
 package com.sprial.emical.utils
 
+import android.content.Context
 import android.util.Log
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.emptyPreferences
 import androidx.datastore.preferences.core.stringPreferencesKey
+import androidx.datastore.preferences.preferencesDataStore
 import com.google.gson.GsonBuilder
 import com.sprial.emical.data.EmiInfoModel
 import kotlinx.coroutines.flow.Flow
@@ -18,7 +20,9 @@ enum class EmiTheme {
     Default, Seeker
 }
 
-class EmiPrefRepository(private val dataStore: DataStore<Preferences>) {
+val Context.dataStore by preferencesDataStore(name = "emi_preference")
+
+open class EmiPrefManager(private val dataStore: DataStore<Preferences>) {
 
     private val TAG = "DataStore_EiHistory"
 
