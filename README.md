@@ -1,1 +1,4 @@
-open source project for EMI calculation android project
+# open source project 
+
+
+Loan EMI calculation
